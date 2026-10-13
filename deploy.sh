@@ -8,8 +8,8 @@ cd "$(dirname "$0")" || exit
 # - Replace the first 404 link in index.html non-root files.
 ./external/shdir-listing/shdir-listing.sh -d 9999 . \
 && find .git -name "index.html" -exec rm -rf {} \; \
-&& find . -name index.html -exec sed -i '/<a href="\.git\/">/d' {} + \
-&& sed -i 's|<li><a href="\./">\.</a></li> ||g' ./index.html \
+&& sed -i '/<a href="\.git\/">/d' ./index.html \
+&& sed -i '/<a href="\.\/">/d' ./index.html \
 && find . -mindepth 2 -name index.html -exec sed -i '
 /<li><a href="/{
   s|<li><a href="[^"]*">[^<]*</a></li>|<li><a href="../">..</a></li>|

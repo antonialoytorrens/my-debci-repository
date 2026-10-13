@@ -1,0 +1,19 @@
+Package: sonar-scanner
+Version: 8.0.1.6346-1~aatdeb13u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 10074
+Depends: openjdk-17-jre-headless | openjdk-21-jre-headless
+Homepage: https://github.com/SonarSource/sonar-scanner-cli
+Priority: optional
+Section: devel
+Filename: pool/main/s/sonar-scanner/sonar-scanner_8.0.1.6346-1~aatdeb13u1_all.deb
+Size: 8592048
+SHA256: 8188b5cda66214a8faa0379b84f3f444824a89db7eec87869a2d64489d0ce952
+SHA1: dbe7aea8ee149e1d13c902101161d1add7662385
+MD5sum: 4064da32204b40317f9a23f0df5efae4
+Description: Scanner CLI for SonarQube and SonarCloud
+ SonarScanner is the scanner to use when there is no specific scanner
+ for your build system. It works with SonarQube and SonarCloud to
+ analyze source code and detect bugs, vulnerabilities, and code smells.
+

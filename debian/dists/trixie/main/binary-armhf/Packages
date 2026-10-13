@@ -1,0 +1,137 @@
+Package: linux-headers-6.12.5-grate-armhf
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 58404
+Depends: linux-image-6.12.5-grate-armhf (= 6.12.5-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-grate/linux-headers-6.12.5-grate-armhf_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 9997512
+SHA256: 89cba9abb3185ceaf30b707197d3364fb5818b196f89a6756d2508fe8b2db9c3
+SHA1: d0e1a2cf55d738eb212266013dc84d28f8dbb4e6
+MD5sum: 774bc2cf87b1ad6b9d2488729d7991fd
+Description: Linux kernel headers 6.12.5 (Grate driver variant)
+ This package provides kernel header files for version 6.12.5
+ for building external modules against the Grate-enabled kernel.
+
+Package: linux-headers-6.12.5-grate-armhf-dbgsym
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 463
+Depends: linux-headers-6.12.5-grate-armhf (= 6.12.5-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-grate/linux-headers-6.12.5-grate-armhf-dbgsym_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 28716
+SHA256: 511b5ae837149dec415a486f2d3cd6ba32c457807247aa8072c1919b2325ad8b
+SHA1: c74f0f451277bdd4760293bdb56162b82540ad79
+MD5sum: a4ad8005c7a4d7e1e927be0175eefe4d
+Description: debug symbols for linux-headers-6.12.5-grate-armhf
+Build-Ids: 12c1835dd42a09fef377ca05e2da337171d74fa1 1c349d1f8d9effe4464b804d77a683007d491ea6 2d0cb5f77e67b06dd552848f5f335ef572f81cd2 2db8b493604010bcae21a63a21717884a58d860d 3883a1aa25b810bff727fa700fef5b7786ef2d09 3a4b2ffc11b4b3835dcbce9d2b5c07483b095e42 52a203471cf89242d1fbb05d3e27a7226b06128b 66d9ea10f3100ec95de90af459c5ce5cec63e815 90a862ab323c9939b41836cea556b5da0ee53511 96455dfa84ddcc701a3947f7e1dc27619b94b000 9fdf70f4caca586548c9c7a2ac02f755e074188a c2c9637423f99f21a7cecd05f9eb635081d31cc0
+
+Package: linux-headers-grate
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 8
+Depends: linux-headers-6.12.5-grate-armhf (= 6.12.5-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-grate/linux-headers-grate_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 1856
+SHA256: ce4762b37dbe8276611067d02ccf16cf6dd1be9287b15c2facdbfa0a43a33cab
+SHA1: e2965fe0ea7cc8cee980ee5c4fbe98ac93da812c
+MD5sum: ad9d9df43ef5c17273156b7318f8a0e7
+Description: Linux kernel headers (Grate) - meta package
+ This is a meta-package that always depends on the latest Grate kernel headers.
+
+Package: linux-image-6.12.5-grate-armhf
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 20695
+Depends: kmod, linux-base
+Provides: linux-image
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-grate/linux-image-6.12.5-grate-armhf_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 13259196
+SHA256: 72d416dca8496a756e7c21103d50b84abc7982d070a758e924de6090c892d01e
+SHA1: 07d28f6caece2425648e2a4f659b4c939037e9b7
+MD5sum: 8ecb28d30ee86a487099e8e5b3def319
+Description: Linux kernel 6.12.5 (Grate driver variant)
+ This package contains the Linux kernel, modules and corresponding other
+ files, version 6.12.5, specifically built with Grate drivers
+ for Tegra hardware.
+
+Package: linux-image-grate
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 8
+Depends: linux-image-6.12.5-grate-armhf (= 6.12.5-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-grate/linux-image-grate_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 1888
+SHA256: 21a71a05f7583b97eb04bc3584216ffc32d6e0cd820bcc072c4c0847fc1a3ce4
+SHA1: a71d05e9626089965f706b9ab5ecb66262f62380
+MD5sum: dee729b14c8407f2902171dbd47d9182
+Description: Linux kernel (Grate) - meta package
+ This is a meta-package that always depends on the latest Grate kernel.
+ Installing this package will ensure you get kernel updates automatically.
+
+Package: linux-libc-dev-grate
+Source: linux-grate
+Version: 6.12.5-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 7030
+Conflicts: linux-libc-dev
+Replaces: linux-libc-dev
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-grate/linux-libc-dev-grate_6.12.5-2~aatdeb13u2_armhf.deb
+Size: 1358836
+SHA256: c71157b845025211eb2b0f08f67d34de687190f2c9315f9965e621d6f1d79e5a
+SHA1: 3a3656f5ffad07e02d959acfc0234a4bdb484f63
+MD5sum: 14431275413098cbfdacc9e9554297d1
+Description: Linux support headers for userspace development (Grate variant)
+ This package provides userspace headers from the Linux kernel with Grate
+ driver support. These headers are used by the installed headers for GNU
+ glibc and other system libraries.
+
+Package: sonar-scanner
+Version: 8.0.1.6346-1~aatdeb13u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 10074
+Depends: openjdk-17-jre-headless | openjdk-21-jre-headless
+Homepage: https://github.com/SonarSource/sonar-scanner-cli
+Priority: optional
+Section: devel
+Filename: pool/main/s/sonar-scanner/sonar-scanner_8.0.1.6346-1~aatdeb13u1_all.deb
+Size: 8592048
+SHA256: 8188b5cda66214a8faa0379b84f3f444824a89db7eec87869a2d64489d0ce952
+SHA1: dbe7aea8ee149e1d13c902101161d1add7662385
+MD5sum: 4064da32204b40317f9a23f0df5efae4
+Description: Scanner CLI for SonarQube and SonarCloud
+ SonarScanner is the scanner to use when there is no specific scanner
+ for your build system. It works with SonarQube and SonarCloud to
+ analyze source code and detect bugs, vulnerabilities, and code smells.
+

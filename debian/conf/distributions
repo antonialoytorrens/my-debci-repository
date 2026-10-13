@@ -1,0 +1,6 @@
+Origin: aat-debci-repository
+Label: aat-debci-repository
+Codename: trixie
+Components: main
+Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
+SignWith: 8BAD2525FC13F174

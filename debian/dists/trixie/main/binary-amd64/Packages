@@ -1,3 +1,36 @@
+Package: llvm-mos-sdk
+Version: 23.0.0-1~aatdeb13u1
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 400803
+Priority: optional
+Section: devel
+Filename: pool/main/l/llvm-mos-sdk/llvm-mos-sdk_23.0.0-1~aatdeb13u1_amd64.deb
+Size: 98803812
+SHA256: 85e161adad855ce515db3930659e5417e2b53a198cef0def9704b1d636e3bac7
+SHA1: d2cb745096a58ddd8fb182afc3e3b8609c1894b7
+MD5sum: c98c83792bfe5baa71a163044bdc809c
+Description: Open-source SDK fork of the LLVM C/C++ compiler for 65xx-series microprocessors.
+ LLVM-based toolchain for C/C++ development for 8-bit MOS 6502 and compatible 65xx CPUs.
+
+Package: llvm-mos-sdk-dbgsym
+Source: llvm-mos-sdk
+Version: 23.0.0-1~aatdeb13u1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 122
+Depends: llvm-mos-sdk (= 23.0.0-1~aatdeb13u1)
+Priority: optional
+Section: debug
+Filename: pool/main/l/llvm-mos-sdk/llvm-mos-sdk-dbgsym_23.0.0-1~aatdeb13u1_amd64.deb
+Size: 17932
+SHA256: c4283cc165ca1f1d3ee9464a4fc8976c747a12dbb18e71fedb048928aebdfd99
+SHA1: bef2fa85d573d181b0846b509f330aac041ddfe5
+MD5sum: b3c91de9d99b9fcb48e1b6a4bb0a47e0
+Description: debug symbols for llvm-mos-sdk
+Build-Ids: 18b2ececc91e8a7ba1ef23a22b8d685adfe67ea4 6fc9b708a96e12073510e3c7f67002f05c2c7ef9 7662677478017ea9862770f98c937fa0e165ff1e b97f5ff1d6b0a983c4841150d61e55ceae10fd6b edc820035dae5d655bc7979bcb32c52282d4e452
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1
 Architecture: all

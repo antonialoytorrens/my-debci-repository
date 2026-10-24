@@ -35,6 +35,43 @@ MD5sum: a4ad8005c7a4d7e1e927be0175eefe4d
 Description: debug symbols for linux-headers-6.12.5-grate-armhf
 Build-Ids: 12c1835dd42a09fef377ca05e2da337171d74fa1 1c349d1f8d9effe4464b804d77a683007d491ea6 2d0cb5f77e67b06dd552848f5f335ef572f81cd2 2db8b493604010bcae21a63a21717884a58d860d 3883a1aa25b810bff727fa700fef5b7786ef2d09 3a4b2ffc11b4b3835dcbce9d2b5c07483b095e42 52a203471cf89242d1fbb05d3e27a7226b06128b 66d9ea10f3100ec95de90af459c5ce5cec63e815 90a862ab323c9939b41836cea556b5da0ee53511 96455dfa84ddcc701a3947f7e1dc27619b94b000 9fdf70f4caca586548c9c7a2ac02f755e074188a c2c9637423f99f21a7cecd05f9eb635081d31cc0
 
+Package: linux-headers-6.18.44-m8x-armhf
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 61948
+Depends: linux-image-6.18.44-m8x-armhf (= 6.18.44-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-m8x/linux-headers-6.18.44-m8x-armhf_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 10587204
+SHA256: 0066b0e3f6cdb48f8402b37670e7229ce1a0886869ad975060cf6c2e88e9ba9f
+SHA1: 3d198819768c69dee3c22dafd5924bb201836b9b
+MD5sum: d5a4c35a3980d15955017307d2c55149
+Description: Linux kernel headers 6.18.44 (Amlogic Meson8 / m8x variant)
+ This package provides kernel header files for version 6.18.44
+ for building external modules against the m8x-enabled kernel.
+
+Package: linux-headers-6.18.44-m8x-armhf-dbgsym
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 403
+Depends: linux-headers-6.18.44-m8x-armhf (= 6.18.44-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-m8x/linux-headers-6.18.44-m8x-armhf-dbgsym_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 25764
+SHA256: b34f03a2c9781bed0f5f20f123e12741712ca3681a4978efef48ef692452d768
+SHA1: 5bbd942fe1f5af87628fc9edd800040b423a619a
+MD5sum: 6e4ec3089801b1ed628a9f93b055d754
+Description: debug symbols for linux-headers-6.18.44-m8x-armhf
+Build-Ids: 24e2bf9628145d78e4211a386c3016d284d274b6 2d0cb5f77e67b06dd552848f5f335ef572f81cd2 3883a1aa25b810bff727fa700fef5b7786ef2d09 3a4b2ffc11b4b3835dcbce9d2b5c07483b095e42 466c6f542083a0e833fbf99b33f8762f5bd06ac9 52a203471cf89242d1fbb05d3e27a7226b06128b 652011f5b87b9381aab0ba24f56cf754ed61bb25 b79b5261cc04685da372ebd4bb6c5dbdebecc993 ed4065f151d2419ce54a09ac565dc4923559ed3a f0403e1344212caa78393a047a5614916ef670f7
+
 Package: linux-headers-grate
 Source: linux-grate
 Version: 6.12.5-2~aatdeb13u2
@@ -52,6 +89,24 @@ SHA1: e2965fe0ea7cc8cee980ee5c4fbe98ac93da812c
 MD5sum: ad9d9df43ef5c17273156b7318f8a0e7
 Description: Linux kernel headers (Grate) - meta package
  This is a meta-package that always depends on the latest Grate kernel headers.
+
+Package: linux-headers-m8x
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 8
+Depends: linux-headers-6.18.44-m8x-armhf (= 6.18.44-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-m8x/linux-headers-m8x_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 2164
+SHA256: d9ae5187fc867908652490292e6be0a1dc8ec5fa3707e13e4115acfb836b8847
+SHA1: 7d123050344ab8b9df2a6e8221f70cfd416a985a
+MD5sum: 266a1c6fd4a739f05dc5daad0ce7071d
+Description: Linux kernel headers (m8x) - meta package
+ This is a meta-package that always depends on the latest m8x kernel headers.
 
 Package: linux-image-6.12.5-grate-armhf
 Source: linux-grate
@@ -74,6 +129,30 @@ Description: Linux kernel 6.12.5 (Grate driver variant)
  files, version 6.12.5, specifically built with Grate drivers
  for Tegra hardware.
 
+Package: linux-image-6.18.44-m8x-armhf
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 56581
+Depends: kmod, linux-base
+Provides: linux-image
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-m8x/linux-image-6.18.44-m8x-armhf_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 29508508
+SHA256: edbf737e4ab9e54be42d7911343a2df1bc6958eee99b5a084b9e42dad6903d7b
+SHA1: 0a9f847e11928f02578b4ccce9cb296c4c34b9c2
+MD5sum: 3d9c1b399d2dbe9159909a100fa63b42
+Description: Linux kernel 6.18.44 (Amlogic Meson8 / m8x variant)
+ This package contains the Linux kernel, modules and corresponding other
+ files, version 6.18.44, specifically built for Amlogic Meson8 and Meson8m2
+ TV boxes, with the meson8 changes from the xdarklight tree.
+ .
+ It ships a uImage for legacy Amlogic u-boot along with the device trees
+ for the supported boards.
+
 Package: linux-image-grate
 Source: linux-grate
 Version: 6.12.5-2~aatdeb13u2
@@ -91,6 +170,25 @@ SHA1: a71d05e9626089965f706b9ab5ecb66262f62380
 MD5sum: dee729b14c8407f2902171dbd47d9182
 Description: Linux kernel (Grate) - meta package
  This is a meta-package that always depends on the latest Grate kernel.
+ Installing this package will ensure you get kernel updates automatically.
+
+Package: linux-image-m8x
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 8
+Depends: linux-image-6.18.44-m8x-armhf (= 6.18.44-2~aatdeb13u2)
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-m8x/linux-image-m8x_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 2192
+SHA256: 968a1c31ec0c0d3fe74afb4616c94e76d94aa96b20c5888c3ef43a1d9de7c0d8
+SHA1: 264f0f7d5d0ba16f2018e7445ec692057178e224
+MD5sum: 98c98749d5b55e4819c57e0b79a1bec8
+Description: Linux kernel (m8x) - meta package
+ This is a meta-package that always depends on the latest m8x kernel.
  Installing this package will ensure you get kernel updates automatically.
 
 Package: linux-libc-dev-grate
@@ -114,6 +212,29 @@ MD5sum: 14431275413098cbfdacc9e9554297d1
 Description: Linux support headers for userspace development (Grate variant)
  This package provides userspace headers from the Linux kernel with Grate
  driver support. These headers are used by the installed headers for GNU
+ glibc and other system libraries.
+
+Package: linux-libc-dev-m8x
+Source: linux-m8x
+Version: 6.18.44-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 7369
+Conflicts: linux-libc-dev
+Replaces: linux-libc-dev
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-m8x/linux-libc-dev-m8x_6.18.44-2~aatdeb13u2_armhf.deb
+Size: 1425880
+SHA256: e47ff92479a2f58dca5eb5ce69cb2c5cfa3927deef67d1280894c05b5c5fe185
+SHA1: 8a5476a0b4d2073c2ad4115b7dd2bb2e5654dffb
+MD5sum: b4cc5acfc697645302b900ba275f1cb4
+Description: Linux support headers for userspace development (m8x variant)
+ This package provides userspace headers from the Linux kernel with Amlogic
+ Meson8 support. These headers are used by the installed headers for GNU
  glibc and other system libraries.
 
 Package: sonar-scanner

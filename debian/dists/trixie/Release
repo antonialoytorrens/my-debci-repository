@@ -1,15 +1,15 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: trixie
-Date: Wed, 28 Oct 2026 22:44:37 UTC
+Date: Wed, 28 Oct 2026 22:53:59 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
  515ed897f767bff3ceaaa6f1693506c8 4840 main/binary-amd64/Packages
  431ddfe829dff8e5e156512015fa4a58 2021 main/binary-amd64/Packages.gz
  99db3945c366da6329beaa52ca97329c 93 main/binary-amd64/Release
- bfa519ddf32b76cc708d8112c0d43767 2789 main/binary-arm64/Packages
- 249c07604eb7f779e666b0aa5e4c6f98 1304 main/binary-arm64/Packages.gz
+ 7a459ea171ea5cd5c6b6b4b40946deff 3408 main/binary-arm64/Packages
+ 1f5f14cf536ea331bcc0afc162e04e52 1504 main/binary-arm64/Packages.gz
  1e4b9f45f1e5a4ad67824a5959336f35 93 main/binary-arm64/Release
  e39584802be361e4d31ebc6e58a5c6b6 2099 main/binary-armel/Packages
  69100b4be2853f38c2929a12a29473d2 1042 main/binary-armel/Packages.gz
@@ -33,8 +33,8 @@ SHA1:
  cc048dca40d284a6a19245ca80a80657d48c8bc1 4840 main/binary-amd64/Packages
  20fc60cf56341246c6528b144eaf9a5966eba6a2 2021 main/binary-amd64/Packages.gz
  412ae9903709961a63a853c47781afd47745868e 93 main/binary-amd64/Release
- 65b689bf124afe1d848ad0cd327de1ac3f50771b 2789 main/binary-arm64/Packages
- 9f6c9296504f4150d428c5fae2c89972bd7b0d0f 1304 main/binary-arm64/Packages.gz
+ fb6980bf9f5dbc43037a71c737b6148858ff7c2c 3408 main/binary-arm64/Packages
+ 4140061350b131a60d6dbc1bd81df5b76e8ae4ec 1504 main/binary-arm64/Packages.gz
  ec71069919ab619c625cdb24a976cdf2892da634 93 main/binary-arm64/Release
  d54f5d0ee9b33c6797d170bb639e7d3e17d99410 2099 main/binary-armel/Packages
  6fdefebd1e3ef310645ec24ebc4abbcd15f0feca 1042 main/binary-armel/Packages.gz
@@ -58,8 +58,8 @@ SHA256:
  39e5db9d115116391a4e37e9abbaff2866764e7dac383b81a908c10e14ad3a5f 4840 main/binary-amd64/Packages
  cbd62a87840cf62e5f9da6806face1f2cce7505e03d4441df9f8bb58b36dfda0 2021 main/binary-amd64/Packages.gz
  fb2c9b6d5d2e82337d6b533e380b8912cc4a7bf2edb651e9c84595f128341cd6 93 main/binary-amd64/Release
- 60720abe14afc1de33c7f836886928351d1b24c75ea991c1accfc6695751688b 2789 main/binary-arm64/Packages
- 9b0125c3fe6f14956b849be403371fa221a06d19d26aac06553337563747ee57 1304 main/binary-arm64/Packages.gz
+ e8c4a3efa203adf1cdddf6c3f4f7188c76e081e77dbb1800cc1f054f2a0fa0a5 3408 main/binary-arm64/Packages
+ 511e299f5fae8f406d3fae4ed6384a51664b500a7bf57140a43f18764665e74e 1504 main/binary-arm64/Packages.gz
  c28d9c6c32886b604a33127bca41b034305864f03198c6717a7915475e0757b6 93 main/binary-arm64/Release
  b1e6eb44be106eecdfe4ab4562b7212281b4ff167c2f0538197bfc063e3b9ff8 2099 main/binary-armel/Packages
  3d0f66d11a03f30740dd2c0f03bb15cff70534dbaec2c021becd4c8bcd357b8c 1042 main/binary-armel/Packages.gz

@@ -16,6 +16,22 @@ Description: Formatter and linter for web projects
  Biome is a fast formatter and linter for JavaScript, TypeScript, CSS and
  more. This package ships the upstream Linux binary as /usr/bin/biome.
 
+Package: lcov2cobertura
+Version: 1.0.9-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1752
+Homepage: https://github.com/mike-kfed/lcov2cobertura
+Priority: optional
+Section: devel
+Filename: pool/main/l/lcov2cobertura/lcov2cobertura_1.0.9-1~aatdeb13u1_arm64.deb
+Size: 581820
+SHA256: 0d54530c2e4a1273c016d874191faff92f84ca832dc4919ab453827f782a9c54
+SHA1: 292a28de99aa97dfba5ef98e1f12b848da7e8468
+MD5sum: 6d0bc88a6ffe2e610188f22147ebac0b
+Description: Convert LCOV coverage reports to Cobertura XML
+ Ships the upstream static lcov2xml binary as /usr/bin/lcov2xml.
+
 Package: sblg
 Version: 0.6.1-2~aatdeb13u2
 Architecture: arm64

@@ -1,3 +1,37 @@
+Package: biome
+Version: 2.4.12-1~aatdeb13u1
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 53282
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://biomejs.dev/
+Priority: optional
+Section: devel
+Filename: pool/main/b/biome/biome_2.4.12-1~aatdeb13u1_amd64.deb
+Size: 12491292
+SHA256: 57e187ce98b51ace268ddb05a542ac0fe3f0ccf4ede5a48b5662337422407103
+SHA1: e8eaf5bd4e7b10e4eebc228c57087329dfbbe0cb
+MD5sum: f47d450a8af9c058b02fe5756cacf244
+Description: Formatter and linter for web projects
+ Biome is a fast formatter and linter for JavaScript, TypeScript, CSS and
+ more. This package ships the upstream Linux binary as /usr/bin/biome.
+
+Package: lcov2cobertura
+Version: 1.0.9-1~aatdeb13u1
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 2141
+Homepage: https://github.com/mike-kfed/lcov2cobertura
+Priority: optional
+Section: devel
+Filename: pool/main/l/lcov2cobertura/lcov2cobertura_1.0.9-1~aatdeb13u1_amd64.deb
+Size: 692648
+SHA256: 11c344045e7e49cc09bf5ba29950bf3e189566e40fcfde66bf9d718a76365ab7
+SHA1: 9d6e9880d359f824d48caef54962376c0c04d7a1
+MD5sum: 225f7ddd4cc57a0ebe7fd4d8b878787f
+Description: Convert LCOV coverage reports to Cobertura XML
+ Ships the upstream static lcov2xml binary as /usr/bin/lcov2xml.
+
 Package: llvm-mos-sdk
 Version: 23.0.0-1~aatdeb13u1
 Architecture: amd64
@@ -30,6 +64,43 @@ SHA1: bef2fa85d573d181b0846b509f330aac041ddfe5
 MD5sum: b3c91de9d99b9fcb48e1b6a4bb0a47e0
 Description: debug symbols for llvm-mos-sdk
 Build-Ids: 18b2ececc91e8a7ba1ef23a22b8d685adfe67ea4 6fc9b708a96e12073510e3c7f67002f05c2c7ef9 7662677478017ea9862770f98c937fa0e165ff1e b97f5ff1d6b0a983c4841150d61e55ceae10fd6b edc820035dae5d655bc7979bcb32c52282d4e452
+
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1892
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_amd64.deb
+Size: 729508
+SHA256: 1b1384bdf493f57f97cc3b6c694b895e5c0d8b5ad1d86f0c6c600d4741df0dbb
+SHA1: dd170d5ec32c05049b0e788cb8fd05e5a613e6f2
+MD5sum: 46b61fb924fa76477dad484c977814af
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 105
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_amd64.deb
+Size: 72524
+SHA256: 2a00476e22aa264ef66295e575393363c0d421968158a32105ffd934dd01851a
+SHA1: 3c6af25b3da563c7fb88fdbee1b7833255ca0f6a
+MD5sum: fe1274dcb2061e98d7de83aaa85b1528
+Description: debug symbols for sblg
+Build-Ids: 64986d1c93de43d443efb3661326efd6ab9ad1f1
 
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1

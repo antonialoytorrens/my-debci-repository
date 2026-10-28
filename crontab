@@ -1,0 +1,1 @@
+* * * * * flock -n /run/lock/aat-debci-deploy.lock /var/www/obsbuilder/aat-debci-repository/deploy.sh

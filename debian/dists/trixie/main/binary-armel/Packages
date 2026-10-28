@@ -1,3 +1,40 @@
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: armel
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1886
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_armel.deb
+Size: 726540
+SHA256: 2b8c29cf1370a2342dad057e4e21c010e21af6008e71a72834488f75ce6f5edd
+SHA1: 8402c62cfcd63684acf6c4a9adddcbbf070a1c96
+MD5sum: ebb6d5f5c8149bd8ea39d812703a02dd
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: armel
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 142
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_armel.deb
+Size: 70784
+SHA256: 70f296cbd3ed070516902ba0825465cf36610a89270b71c9e50855efc10cdac7
+SHA1: c7b67fab915a6b8ccd9694909bc6597af478b68a
+MD5sum: 897d05b457b50673453bd909b5d34004
+Description: debug symbols for sblg
+Build-Ids: 4f6586d442e90a9dcf7db0a2b13f3e1892eedf54
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1
 Architecture: all

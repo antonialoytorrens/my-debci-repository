@@ -1,3 +1,40 @@
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: s390x
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1891
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_s390x.deb
+Size: 727976
+SHA256: 1886819738006f2df3b0e975f9022dc82215819a6c55d04e75aebfba4c5b3dfe
+SHA1: aed098a72c663977f946231658134e4d3fb4738a
+MD5sum: 754885d1eaa889630971b16ff701bc14
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: s390x
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 149
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_s390x.deb
+Size: 69660
+SHA256: 584d8f83162f9ddabb81e6836299a05edc893ff48f30433ba1ef5e5268c43a31
+SHA1: 42cdba492c733f9614bee091568f1b1dfb63f65a
+MD5sum: ce1df595ad5d3d547895dffbba2f50f5
+Description: debug symbols for sblg
+Build-Ids: 11f80f0b9f0d0479fbe179b4cbf83c3e7e222ba4
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1
 Architecture: all

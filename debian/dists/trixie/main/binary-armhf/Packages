@@ -237,6 +237,43 @@ Description: Linux support headers for userspace development (m8x variant)
  Meson8 support. These headers are used by the installed headers for GNU
  glibc and other system libraries.
 
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1886
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_armhf.deb
+Size: 725024
+SHA256: fdacec0613bdef21f8337f4cc58ebb5e1a88228b81c6b9825cc9769fd4da0c23
+SHA1: ee0c4fcb6377d0167d127b6e0ce0bae32249db21
+MD5sum: 9549ee2e796b3123c77e7d5c8a29b88a
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 126
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_armhf.deb
+Size: 71916
+SHA256: 573c4cccc1fafc213d12c54e35cfe031f360e7680313aa4d9374a77a2d9f5562
+SHA1: f74fd74976b76f53fa469e7e9f55560a69981879
+MD5sum: c630780d3206d7fa47e3ab8f87f11539
+Description: debug symbols for sblg
+Build-Ids: c54fdb4036c1dec29053daefcc6b2571456bbf1e
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1
 Architecture: all

@@ -1,3 +1,58 @@
+Package: biome
+Version: 2.4.12-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 47945
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://biomejs.dev/
+Priority: optional
+Section: devel
+Filename: pool/main/b/biome/biome_2.4.12-1~aatdeb13u1_arm64.deb
+Size: 10568152
+SHA256: d7b22e68911df87c6ab482ca48338e0b1e7f83c1532b901d4bea052748d3f6e4
+SHA1: 689aef659ac80d747c2ac110178eae22428077ee
+MD5sum: aed06175ee41e10f78b76c21fcf8cb46
+Description: Formatter and linter for web projects
+ Biome is a fast formatter and linter for JavaScript, TypeScript, CSS and
+ more. This package ships the upstream Linux binary as /usr/bin/biome.
+
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1888
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_arm64.deb
+Size: 727576
+SHA256: 1f10b057d325dbe8ee688ac4b4c608d76634781ccb3043b107457a503f7edc14
+SHA1: 5a16e2a5fd15e1e2acfb6609d3c58ddd87db972b
+MD5sum: 074e3e01fc6a84e147559ed71f815aef
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 150
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_arm64.deb
+Size: 71804
+SHA256: 11e46ffa4537c7df64345fdda7ec17f70050b47982c179ee9b4ebce04febe815
+SHA1: d9385a5da71cf83537eb783185544e41abf03513
+MD5sum: d6ce0e537f5851f6a212f767c654f5ed
+Description: debug symbols for sblg
+Build-Ids: 4ff1e1c11ca90a0d8cedec8bab43668a10e37095
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb13u1
 Architecture: all

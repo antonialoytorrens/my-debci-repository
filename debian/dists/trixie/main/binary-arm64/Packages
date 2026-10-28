@@ -88,3 +88,21 @@ Description: Scanner CLI for SonarQube and SonarCloud
  for your build system. It works with SonarQube and SonarCloud to
  analyze source code and detect bugs, vulnerabilities, and code smells.
 
+Package: zola
+Version: 0.22.1-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 40050
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 4.2)
+Homepage: https://www.getzola.org/
+Priority: optional
+Section: web
+Filename: pool/main/z/zola/zola_0.22.1-1~aatdeb13u1_arm64.deb
+Size: 9404956
+SHA256: b021e6a66fb0515c21f37dae0b65f703f611101fd173a78118edc56558855251
+SHA1: 2b3f56c7e25266dbd6ea70644e7feb44b5c87995
+MD5sum: 61306fe39539ffec1c735b31dfd7131e
+Description: Static site generator written in Rust
+ Zola is a fast static site generator. This package ships the upstream
+ Linux binary for this architecture.
+

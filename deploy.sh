@@ -11,9 +11,16 @@ if [ -z "$(git status --porcelain)" ]; then
 fi
 
 mkdir -p "$LOG_DIR"
-exec >> "$LOG_DIR/$(date '+%Y-%m-%d').log" 2>&1
+LOG_FILE="$LOG_DIR/$(date '+%Y-%m-%d').log"
 
-echo "$(date '+%Y-%m-%d %H:%M:%S') changes detected, generating index.html"
+prefix_log() {
+  while IFS= read -r line || [ -n "$line" ]; do
+    printf '[%s] %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$line"
+  done
+}
+
+{
+echo "changes detected, generating index.html"
 
 # index.html generation
 # Please see https://github.com/rioastamal/shdir-listing
@@ -38,7 +45,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') changes detected, generating index.html"
 # Push
 git add .
 if [ -z "$(git status --porcelain)" ]; then
-  echo "$(date '+%Y-%m-%d %H:%M:%S') nothing to commit after generation"
+  echo "nothing to commit after generation"
   exit 0
 fi
 
@@ -51,4 +58,5 @@ git reflog expire --expire-unreachable=now
 git reflog expire --expire=now --all
 git gc --prune=now --aggressive
 
-echo "$(date '+%Y-%m-%d %H:%M:%S') deploy finished"
+echo "deploy finished"
+} 2>&1 | prefix_log >> "$LOG_FILE"

@@ -1,6 +1,6 @@
 # my-debci-repository
 
-Deb packages used in Git Workflows / Docker Images
+Deb packages used in Git Workflows / Docker Images.
 
 ## References
 

@@ -27,11 +27,9 @@ echo "changes detected, generating index.html"
 # Workarounds:
 # - Replace "./" href in index.html root file.
 # - Replace the first 404 link in index.html non-root files.
-# - Hide "external/" file listing.
 ./external/shdir-listing/shdir-listing.sh -d 9999 . \
 && find .git -name "index.html" -exec rm -rf {} \; \
 && sed -i '/<a href="\.git\/">/d' ./index.html \
-&& sed -i '/<a href="external\/">/d' ./index.html \
 && sed -i '/<a href="\.\/">/d' ./index.html \
 && find . -mindepth 2 -name index.html -exec sed -i '
 /<li><a href="/{

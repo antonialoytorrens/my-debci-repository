@@ -1,7 +1,7 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: trixie
-Date: Wed, 04 Nov 2026 20:57:55 UTC
+Date: Wed, 04 Nov 2026 20:58:42 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
@@ -14,8 +14,8 @@ MD5Sum:
  e39584802be361e4d31ebc6e58a5c6b6 2099 main/binary-armel/Packages
  69100b4be2853f38c2929a12a29473d2 1042 main/binary-armel/Packages.gz
  0b5eb9394de4718099a39501d775c2e4 93 main/binary-armel/Release
- 647199c76146ac7b80df9d7bb3dcafb2 8028 main/binary-armhf/Packages
- 3b22ee9e9efa649a5ac48f911499c2ab 2703 main/binary-armhf/Packages.gz
+ 82567168f652d93647bac16520438519 12295 main/binary-armhf/Packages
+ 70beae9d2a3e7bbfe5901d94be7b1aa4 3639 main/binary-armhf/Packages.gz
  e4d3765a330dcb242322ab7be18e81d3 93 main/binary-armhf/Release
  c73404f352cfbf3cb22ec02a22038b11 2095 main/binary-i386/Packages
  101ab0e3c0a1434efb2145682cfe91db 1035 main/binary-i386/Packages.gz
@@ -39,8 +39,8 @@ SHA1:
  d54f5d0ee9b33c6797d170bb639e7d3e17d99410 2099 main/binary-armel/Packages
  6fdefebd1e3ef310645ec24ebc4abbcd15f0feca 1042 main/binary-armel/Packages.gz
  bed268151ccf4e8d956adb25b5763cca7053f7bd 93 main/binary-armel/Release
- d60f083dbb7766f4e4808d3fefc2ea7a3a61c1cb 8028 main/binary-armhf/Packages
- f110e776ac045e0f5abc747e55119a6763a37edd 2703 main/binary-armhf/Packages.gz
+ 9201e63483610d42d3a964f2d1e33e4aeb3cae9b 12295 main/binary-armhf/Packages
+ 561fa709883f851c4064f02a9cf52bb089a53cdf 3639 main/binary-armhf/Packages.gz
  86b2036a919ff7e668f783e1634a847cc62f2811 93 main/binary-armhf/Release
  71f8c23d7b01a1cd016bddf3ba5221ab956196a6 2095 main/binary-i386/Packages
  5bcb58508b00f9c3029fc5320a62e7ee12d59ba7 1035 main/binary-i386/Packages.gz
@@ -64,8 +64,8 @@ SHA256:
  b1e6eb44be106eecdfe4ab4562b7212281b4ff167c2f0538197bfc063e3b9ff8 2099 main/binary-armel/Packages
  3d0f66d11a03f30740dd2c0f03bb15cff70534dbaec2c021becd4c8bcd357b8c 1042 main/binary-armel/Packages.gz
  e4f5aa098cae1a01df9f756f56f6e81a50cffcbe448d8201a6865b5363361f23 93 main/binary-armel/Release
- 51b441f706a068a32a6fb2e947c066ded1116b3fbd738faeafe36fdc5158dc2a 8028 main/binary-armhf/Packages
- cbf9f62bcee91c79cad886e4fe48ea886132b3d1626c01bf32c282f21db96ed3 2703 main/binary-armhf/Packages.gz
+ 5df5d2e949d6974a1a91e6eee5b29439f6cbbd111cacf72119192460f2bbee00 12295 main/binary-armhf/Packages
+ 82fe4886cff5b957c637eba065ca2ba54c872ab27fab0b145621a719b0946e99 3639 main/binary-armhf/Packages.gz
  20300c53257fa5225faaac1ed19b871641a282042a2b7c4c4710f26e809cc764 93 main/binary-armhf/Release
  192c6f71797395532e8cdf39eea4028f085bc5ed8dc98c65e5870365f7514039 2095 main/binary-i386/Packages
  c6217a4d9285f47e9fc7c66ac9d2383258d1590c7a4804074a6f85b4f2d6eb68 1035 main/binary-i386/Packages.gz

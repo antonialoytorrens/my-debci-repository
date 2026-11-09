@@ -1,17 +1,17 @@
 Package: renpy-web
-Version: 8.3.4-1~aatdeb14u1
+Version: 8.3.4-2~aatdeb14u2
 Architecture: all
 Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
-Installed-Size: 36763
+Installed-Size: 36759
 Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
 Homepage: https://www.renpy.org/
 Priority: optional
 Section: games
-Filename: pool/main/r/renpy-web/renpy-web_8.3.4-1~aatdeb14u1_all.deb
-Size: 8920992
-SHA256: 4f26383ef275fa24b94415b7bbd4b4706e9e6135ee3e776708d4bae46f605230
-SHA1: 36825182e12386786f13ee9aa5808ff37bc5c41b
-MD5sum: 1828d4d48639fed24f1e28a8f38fc315
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-2~aatdeb14u2_all.deb
+Size: 8922448
+SHA256: e8e06db2584feff935d286f7e472cb15d1dda5e0a35c54af7ce4cd3866284bd4
+SHA1: f12b5cd359f91fb05f48ef4057d07ae34a755de1
+MD5sum: 62d191744f97770f8ff3c4b0f8e052f5
 Description: framework for developing visual-novel type games - web support
  Ren'Py is a programming language and runtime, intended to ease the creation
  of visual-novel type games. It contains features that make it easy to

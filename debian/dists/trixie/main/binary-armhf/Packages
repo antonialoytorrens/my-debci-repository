@@ -238,19 +238,19 @@ Description: Linux support headers for userspace development (m8x variant)
  glibc and other system libraries.
 
 Package: renpy-web
-Version: 8.3.4-1~aatdeb13u1
+Version: 8.3.4-2~aatdeb13u2
 Architecture: all
 Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
-Installed-Size: 36763
+Installed-Size: 36759
 Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
 Homepage: https://www.renpy.org/
 Priority: optional
 Section: games
-Filename: pool/main/r/renpy-web/renpy-web_8.3.4-1~aatdeb13u1_all.deb
-Size: 8920928
-SHA256: 7722e1d767b5fd8af13b6fb76a3d107621e405141d5f417c7c455c67a0429109
-SHA1: 804fc2ccf3b822451707cfc9714f22ec827a8da5
-MD5sum: eb202ac40032626851f3e5d16ad33fb3
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-2~aatdeb13u2_all.deb
+Size: 8922160
+SHA256: 3576e7b59b8532f772dd703d6070620cbe07d354b3abab0a1536d770c635e406
+SHA1: e2990ed536160a8c68f408ddb010ccfd2fd05181
+MD5sum: 6f4c68ab8fa2517ecfb16c1400aa9b5f
 Description: framework for developing visual-novel type games - web support
  Ren'Py is a programming language and runtime, intended to ease the creation
  of visual-novel type games. It contains features that make it easy to

@@ -1,3 +1,27 @@
+Package: renpy-web
+Version: 8.3.4-1~aatdeb14u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 36763
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-1~aatdeb14u1_all.deb
+Size: 8920992
+SHA256: 4f26383ef275fa24b94415b7bbd4b4706e9e6135ee3e776708d4bae46f605230
+SHA1: 36825182e12386786f13ee9aa5808ff37bc5c41b
+MD5sum: 1828d4d48639fed24f1e28a8f38fc315
+Description: framework for developing visual-novel type games - web support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 web (Renpyweb) files under
+ /usr/share/games/renpy/web so the Debian Ren'Py launcher can build web
+ distributions.
+
 Package: sonar-scanner
 Version: 8.0.1.6346-1~aatdeb14u1
 Architecture: all

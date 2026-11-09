@@ -65,6 +65,32 @@ MD5sum: b3c91de9d99b9fcb48e1b6a4bb0a47e0
 Description: debug symbols for llvm-mos-sdk
 Build-Ids: 18b2ececc91e8a7ba1ef23a22b8d685adfe67ea4 6fc9b708a96e12073510e3c7f67002f05c2c7ef9 7662677478017ea9862770f98c937fa0e165ff1e b97f5ff1d6b0a983c4841150d61e55ceae10fd6b edc820035dae5d655bc7979bcb32c52282d4e452
 
+Package: renpy-rapt
+Version: 8.3.4-2~aatdeb13u2
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 112115
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Recommends: default-jdk-headless | openjdk-21-jdk-headless, wget, unzip
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-rapt/renpy-rapt_8.3.4-2~aatdeb13u2_all.deb
+Size: 51440668
+SHA256: a3b27beffa97be6122c275144c2a26ab3c3ea4ad19930d7d6eaa57a76e911c89
+SHA1: 46fcef510628843315bd1f9492ef5cf192fd2244
+MD5sum: 1fbd35871c997d3d1dc078d4949d4d70
+Description: framework for developing visual-novel type games - Android support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 RAPT (Ren'Py Android
+ Packaging Tool) files under /usr/share/games/renpy/rapt so the Debian
+ Ren'Py launcher can build Android packages. The Android SDK is downloaded
+ by RAPT at build time.
+
 Package: renpy-web
 Version: 8.3.4-2~aatdeb13u2
 Architecture: all

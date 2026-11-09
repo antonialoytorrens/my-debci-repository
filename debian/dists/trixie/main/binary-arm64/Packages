@@ -32,6 +32,32 @@ MD5sum: 6d0bc88a6ffe2e610188f22147ebac0b
 Description: Convert LCOV coverage reports to Cobertura XML
  Ships the upstream static lcov2xml binary as /usr/bin/lcov2xml.
 
+Package: renpy-rapt
+Version: 8.3.4-2~aatdeb13u2
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 112115
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Recommends: default-jdk-headless | openjdk-21-jdk-headless, wget, unzip
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-rapt/renpy-rapt_8.3.4-2~aatdeb13u2_all.deb
+Size: 51440668
+SHA256: a3b27beffa97be6122c275144c2a26ab3c3ea4ad19930d7d6eaa57a76e911c89
+SHA1: 46fcef510628843315bd1f9492ef5cf192fd2244
+MD5sum: 1fbd35871c997d3d1dc078d4949d4d70
+Description: framework for developing visual-novel type games - Android support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 RAPT (Ren'Py Android
+ Packaging Tool) files under /usr/share/games/renpy/rapt so the Debian
+ Ren'Py launcher can build Android packages. The Android SDK is downloaded
+ by RAPT at build time.
+
 Package: renpy-web
 Version: 8.3.4-2~aatdeb13u2
 Architecture: all

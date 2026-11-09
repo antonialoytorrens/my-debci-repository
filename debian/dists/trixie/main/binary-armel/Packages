@@ -1,3 +1,27 @@
+Package: renpy-web
+Version: 8.3.4-1~aatdeb13u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 36763
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-1~aatdeb13u1_all.deb
+Size: 8920928
+SHA256: 7722e1d767b5fd8af13b6fb76a3d107621e405141d5f417c7c455c67a0429109
+SHA1: 804fc2ccf3b822451707cfc9714f22ec827a8da5
+MD5sum: eb202ac40032626851f3e5d16ad33fb3
+Description: framework for developing visual-novel type games - web support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 web (Renpyweb) files under
+ /usr/share/games/renpy/web so the Debian Ren'Py launcher can build web
+ distributions.
+
 Package: sblg
 Version: 0.6.1-2~aatdeb13u2
 Architecture: armel

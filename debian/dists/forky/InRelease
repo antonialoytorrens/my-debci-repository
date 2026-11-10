@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 10 Nov 2026 08:59:46 UTC
+Date: Tue, 10 Nov 2026 11:52:45 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
@@ -29,8 +29,8 @@ MD5Sum:
  ee55de7ff17012e5c245d685bc611e6e 3152 main/binary-riscv64/Packages
  b9e369b65104409dab029d50ce96a914 1293 main/binary-riscv64/Packages.gz
  cfeb6d59f5c715c63db62bd2da01362c 95 main/binary-riscv64/Release
- ee55de7ff17012e5c245d685bc611e6e 3152 main/binary-s390x/Packages
- b9e369b65104409dab029d50ce96a914 1293 main/binary-s390x/Packages.gz
+ 75b0a583c80fff6270687e12d10c1ff7 1962 main/binary-s390x/Packages
+ 625201ac56a56762611462a741b83f00 1041 main/binary-s390x/Packages.gz
  13a92e7a901ea29d2896a28a74c6d0b2 93 main/binary-s390x/Release
 SHA1:
  f348fa28bc1783daa4bc4bdc8a50b0c6c95f6e49 3152 main/binary-amd64/Packages
@@ -54,8 +54,8 @@ SHA1:
  f348fa28bc1783daa4bc4bdc8a50b0c6c95f6e49 3152 main/binary-riscv64/Packages
  b531d70c7a4a486c67da74c018fe49c6629c8d82 1293 main/binary-riscv64/Packages.gz
  23ade96f183b63c9b8d0b62d11fe23069cbbd635 95 main/binary-riscv64/Release
- f348fa28bc1783daa4bc4bdc8a50b0c6c95f6e49 3152 main/binary-s390x/Packages
- b531d70c7a4a486c67da74c018fe49c6629c8d82 1293 main/binary-s390x/Packages.gz
+ 320aa9e0d9a529cb37dd8ac73a3eb047a2d9dd3d 1962 main/binary-s390x/Packages
+ e82838442ea01a02fc2e15ee6205861561021cb4 1041 main/binary-s390x/Packages.gz
  167cf461c4deaab298b1d025bfa71691f78d7f1b 93 main/binary-s390x/Release
 SHA256:
  faf4b89031512b48df335cee3ce2d2f4682075c07757572c8f8a92e183885e2b 3152 main/binary-amd64/Packages
@@ -79,22 +79,22 @@ SHA256:
  faf4b89031512b48df335cee3ce2d2f4682075c07757572c8f8a92e183885e2b 3152 main/binary-riscv64/Packages
  18d2f403f13cd1f8bff34917b4c0248a7fa80637fecf865de63fa7fa73241500 1293 main/binary-riscv64/Packages.gz
  fa7bb2b852c853747241247f615185268a5722ce9c39b3e53e192b54da1f558f 95 main/binary-riscv64/Release
- faf4b89031512b48df335cee3ce2d2f4682075c07757572c8f8a92e183885e2b 3152 main/binary-s390x/Packages
- 18d2f403f13cd1f8bff34917b4c0248a7fa80637fecf865de63fa7fa73241500 1293 main/binary-s390x/Packages.gz
+ 47b10e0bf05ae54c2eeab6d302c781035160e62fd1890906dbc7d29e15ad6792 1962 main/binary-s390x/Packages
+ b7645b284d4aa78db2b71ec69071b37a5463bbaac9a63d3dd069eeb017de7517 1041 main/binary-s390x/Packages.gz
  90ee000b684ee733890f09c4b066fd7d6e9bd657e28379d50523f12624da93c1 93 main/binary-s390x/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1EuIPJyEFAFMxYiRi60lJfwT8XQFAmry3QIACgkQi60lJfwT
-8XR4zQ//YOk1BloZgcR9TCqNMeSrd/w/UQCfQvmf474TmEhKGljlxZ6bWyUgTXXx
-negvRNwG2jrragb4sRPg5CRM17nWqoakMBcHDwmb1Dv02U7aSyY0l88ZuBoLpLrk
-JgxSUkjw3N/7Ba3mHkfJls8GyfZB438ykQ/n+OhHxHsDwY9Mhf3zEbl9K984eJsQ
-qjHrnrptQntcQT1q/hBGotl23pTJFe0OsHxcWZMpf0ZXvaKua66DEl1IbQIdFV6N
-bWXoGvQx2EhwEG9jLA6YHfI9/Fd/+2G0sJvBGwthlh+hM8HlW4UjsiJbJ0pJdnrG
-jEkc1vlwfIaQYAyPhGjHzq+d1T12u6ZV+W4Ztp1ZskfJMF+rorZ6D5Mt1EksANFU
-eg2k8b3yF/nKAnwN1IvREs6Xz4+AFAHFL/zfbbFv3a4rvlRhin+p05ROAn+YwlBp
-Wv9qGn2W/dq56WTZIIX4xVnTQz3To/FLB6LL5sGolZoFY869zNfHm+s533m+Umof
-lqKpXd/taMV3sTsfkyvI1gKQmdJUeevbKgGcDvUWaXlZfTWjz/lv7/C/wK4Ga1Fn
-PILqlwDfjAPhtNf+nzy5eUavRq2HpTUibctPBfUdjszrE/RVxr2XnH9SeXszPVjJ
-fUdGgAUOBptKOtDy0qSGmnmtm91/CpfaYdMw6NYkLJWIeAmOHyc=
-=lZO8
+iQIzBAEBCgAdFiEE1EuIPJyEFAFMxYiRi60lJfwT8XQFAmrzBY0ACgkQi60lJfwT
+8XTMtQ//XFrnpzRp/vrN5eZ8yBhOx8J+GR/zHdhoJqZaRY5L746g/1vh1Ip2kmzh
+zV+ATOcTRjhzoAcG4vvSHp7GWqA/pMb+OBpC6UxDBUZ3/Rs2m8lonaASgM3zN5GZ
+2vGiCLi1qkixrep2drtkGAHT4xV/iaVfx5zU8qJeHtYZeD2d0P1ofl26htp4wvLb
+CdsRuo+IV7Uaq7NuixvfWHT5abJdV+sgqcHh8n+RfSxgkQCUlP+Fk5sQPrfes+ic
+bIfnoor0HkV/C1Na1KYhlSuJhbfG2E71ZnamN0vCh1uLRUnmKloWwczIyi4qto5F
+gwI0VhSw/7/l0gaW8Bxfjy+6rZZzwo0Q7BAVe/3HY6xcEeHKTqRm8W6AyCsbTdom
+is6zjzTkTGxMEQaHABLz5rj3NuydrlJX9U8PRDJdhmGz+yC8Cql4MmjatB8uW568
+ICE4j6IkJ23CgH33wAWn5iiepQLxl8P8RHqn1xvgCSvhYaGZ2JbtU/WSbshSY+Vu
+2X4gjJfmPEWkQHowJ0X/DQoMR5H6/PogTVdLE5dmkHKe8aXFM9aVjYFKuWPxCvAi
+o0niKqTEBQqbAFVre29hyMSwn7AMRVcDbqm6UoP8/CcKi33JISjNA51n8rBF9WFX
+Is23SyV9RUWRjdMc7/QxjM7/W6EGHwWvVKXqLol6JI2hOnTx8f0=
+=LQZM
 -----END PGP SIGNATURE-----

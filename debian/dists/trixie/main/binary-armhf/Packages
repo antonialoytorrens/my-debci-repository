@@ -288,31 +288,6 @@ Description: framework for developing visual-novel type games - iOS support
  Xcode projects. Building and signing the iOS app still requires Xcode on
  macOS.
 
-Package: renpy-web
-Version: 8.3.4-3~aatdeb13u3
-Architecture: all
-Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
-Installed-Size: 36763
-Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
-Homepage: https://www.renpy.org/
-Priority: optional
-Section: games
-Filename: pool/main/r/renpy-web/renpy-web_8.3.4-3~aatdeb13u3_all.deb
-Size: 8920684
-SHA256: 61bb7c2b8956b408cadc915da2986f2035720fc8df634208ba577c75695fbe0e
-SHA1: beaca9a5927bca4392b0a1bc358a19c70ef78f64
-MD5sum: 0e3b833c539d2d6ab9bad2922e91ca10
-Description: framework for developing visual-novel type games - web support
- Ren'Py is a programming language and runtime, intended to ease the creation
- of visual-novel type games. It contains features that make it easy to
- display thoughts, dialogue, and menus; to display images to the user; to
- write game logic; and to support the saving and loading of games.
- .
- This package installs the upstream Ren'Py 8.3.4 web (Renpyweb) files under
- /usr/share/games/renpy/web so the Debian Ren'Py launcher can build web
- distributions. It also installs a launcher helper so CLI web_build and
- distribute work without the full upstream SDK.
-
 Package: sblg
 Version: 0.6.1-2~aatdeb13u2
 Architecture: armhf

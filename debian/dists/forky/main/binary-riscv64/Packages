@@ -1,3 +1,30 @@
+Package: renpy-rapt
+Version: 8.3.4-3~aatdeb14u3
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 112117
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Recommends: openjdk-21-jdk-headless | default-jdk-headless, google-android-platform-35-installer, google-android-build-tools-35.0.1-installer, google-android-platform-tools-installer
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-rapt/renpy-rapt_8.3.4-3~aatdeb14u3_all.deb
+Size: 51442264
+SHA256: fd5210dad15a00f22171cc37d094685600c09382d80617d713d9256abb4e4643
+SHA1: 00efa7c854ef72802c0874ee4b2146f4bd35b8be
+MD5sum: e8ee9269d4aca68d5e1a92c3b882ab71
+Description: framework for developing visual-novel type games - Android support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 RAPT (Ren'Py Android
+ Packaging Tool) files under /usr/share/games/renpy/rapt so the Debian
+ Ren'Py launcher can build Android packages. The Android SDK is expected
+ at /usr/lib/android-sdk from the google-android-*-installer packages.
+ Gradle working copies are written to ~/.cache/renpy-rapt.
+
 Package: renpy-web
 Version: 8.3.4-3~aatdeb14u3
 Architecture: all

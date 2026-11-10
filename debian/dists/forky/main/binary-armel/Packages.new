@@ -1,0 +1,71 @@
+Package: renpy-rapt
+Version: 8.3.4-3~aatdeb14u3
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 112117
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Recommends: openjdk-21-jdk-headless | default-jdk-headless, google-android-platform-35-installer, google-android-build-tools-35.0.1-installer, google-android-platform-tools-installer
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-rapt/renpy-rapt_8.3.4-3~aatdeb14u3_all.deb
+Size: 51442264
+SHA256: fd5210dad15a00f22171cc37d094685600c09382d80617d713d9256abb4e4643
+SHA1: 00efa7c854ef72802c0874ee4b2146f4bd35b8be
+MD5sum: e8ee9269d4aca68d5e1a92c3b882ab71
+Description: framework for developing visual-novel type games - Android support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 RAPT (Ren'Py Android
+ Packaging Tool) files under /usr/share/games/renpy/rapt so the Debian
+ Ren'Py launcher can build Android packages. The Android SDK is expected
+ at /usr/lib/android-sdk from the google-android-*-installer packages.
+ Gradle working copies are written to ~/.cache/renpy-rapt.
+
+Package: renpy-web
+Version: 8.3.4-3~aatdeb14u3
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 36763
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-3~aatdeb14u3_all.deb
+Size: 8919984
+SHA256: bd7126a4d2e6a3228d33970dab9a62d7131b9f7078c8dbea06b032a74242478b
+SHA1: 48161d32c168ae005a7ac569d2351a001feb17bb
+MD5sum: 6cad20a5890917e91d4d60ca548c52c6
+Description: framework for developing visual-novel type games - web support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 web (Renpyweb) files under
+ /usr/share/games/renpy/web so the Debian Ren'Py launcher can build web
+ distributions. It also installs a launcher helper so CLI web_build and
+ distribute work without the full upstream SDK.
+
+Package: sonar-scanner
+Version: 8.0.1.6346-1~aatdeb14u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 10074
+Depends: openjdk-17-jre-headless | openjdk-21-jre-headless
+Homepage: https://github.com/SonarSource/sonar-scanner-cli
+Priority: optional
+Section: devel
+Filename: pool/main/s/sonar-scanner/sonar-scanner_8.0.1.6346-1~aatdeb14u1_all.deb
+Size: 8590368
+SHA256: 216195d5b4e74cf36b1686a479c1b9cfea81da5a28aa0f82cb120e1a2be860f3
+SHA1: 55bbd74c14e36a3513d4a62882d926eb784152ca
+MD5sum: 8a9043adfeb4407f5cda21f94322e0be
+Description: Scanner CLI for SonarQube and SonarCloud
+ SonarScanner is the scanner to use when there is no specific scanner
+ for your build system. It works with SonarQube and SonarCloud to
+ analyze source code and detect bugs, vulnerabilities, and code smells.
+

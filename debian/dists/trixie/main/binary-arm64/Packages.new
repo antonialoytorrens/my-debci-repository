@@ -1,0 +1,203 @@
+Package: biome
+Version: 2.4.12-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 47945
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Homepage: https://biomejs.dev/
+Priority: optional
+Section: devel
+Filename: pool/main/b/biome/biome_2.4.12-1~aatdeb13u1_arm64.deb
+Size: 10568152
+SHA256: d7b22e68911df87c6ab482ca48338e0b1e7f83c1532b901d4bea052748d3f6e4
+SHA1: 689aef659ac80d747c2ac110178eae22428077ee
+MD5sum: aed06175ee41e10f78b76c21fcf8cb46
+Description: Formatter and linter for web projects
+ Biome is a fast formatter and linter for JavaScript, TypeScript, CSS and
+ more. This package ships the upstream Linux binary as /usr/bin/biome.
+
+Package: lcov2cobertura
+Version: 1.0.9-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1752
+Homepage: https://github.com/mike-kfed/lcov2cobertura
+Priority: optional
+Section: devel
+Filename: pool/main/l/lcov2cobertura/lcov2cobertura_1.0.9-1~aatdeb13u1_arm64.deb
+Size: 581820
+SHA256: 0d54530c2e4a1273c016d874191faff92f84ca832dc4919ab453827f782a9c54
+SHA1: 292a28de99aa97dfba5ef98e1f12b848da7e8468
+MD5sum: 6d0bc88a6ffe2e610188f22147ebac0b
+Description: Convert LCOV coverage reports to Cobertura XML
+ Ships the upstream static lcov2xml binary as /usr/bin/lcov2xml.
+
+Package: renpy-rapt
+Version: 8.3.4-3~aatdeb13u3
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 112117
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Recommends: openjdk-21-jdk-headless | default-jdk-headless, google-android-platform-35-installer, google-android-build-tools-35.0.1-installer, google-android-platform-tools-installer
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-rapt/renpy-rapt_8.3.4-3~aatdeb13u3_all.deb
+Size: 51442240
+SHA256: d3d77301a5a16e4591a8620668a6928477a1027114cb6caf75423c62bc0a61ff
+SHA1: 022c55620d6636d16727013b3bcdc23c53ca9f0f
+MD5sum: 513a41e6c2dd5ced477f5f22a791ba96
+Description: framework for developing visual-novel type games - Android support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 RAPT (Ren'Py Android
+ Packaging Tool) files under /usr/share/games/renpy/rapt so the Debian
+ Ren'Py launcher can build Android packages. The Android SDK is expected
+ at /usr/lib/android-sdk from the google-android-*-installer packages.
+ Gradle working copies are written to ~/.cache/renpy-rapt.
+
+Package: renpy-renios
+Version: 8.3.4-2~aatdeb13u2
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 297746
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-renios/renpy-renios_8.3.4-2~aatdeb13u2_all.deb
+Size: 63608344
+SHA256: f062dc28d9e1c660b002ef90770cb7dabe989203046a479715a3d6d276b06c4e
+SHA1: 9cf310a23ae0485a3ad3d0978b07e97ac253d3c6
+MD5sum: 7392fb528f27a1220fd7229e367585f3
+Description: framework for developing visual-novel type games - iOS support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 Renios files under
+ /usr/share/games/renpy/renios so the Debian Ren'Py launcher can generate
+ Xcode projects. Building and signing the iOS app still requires Xcode on
+ macOS.
+
+Package: renpy-web
+Version: 8.3.4-3~aatdeb13u3
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 36763
+Depends: renpy (>= 8.3.4), renpy (<< 8.3.5~)
+Homepage: https://www.renpy.org/
+Priority: optional
+Section: games
+Filename: pool/main/r/renpy-web/renpy-web_8.3.4-3~aatdeb13u3_all.deb
+Size: 8920684
+SHA256: 61bb7c2b8956b408cadc915da2986f2035720fc8df634208ba577c75695fbe0e
+SHA1: beaca9a5927bca4392b0a1bc358a19c70ef78f64
+MD5sum: 0e3b833c539d2d6ab9bad2922e91ca10
+Description: framework for developing visual-novel type games - web support
+ Ren'Py is a programming language and runtime, intended to ease the creation
+ of visual-novel type games. It contains features that make it easy to
+ display thoughts, dialogue, and menus; to display images to the user; to
+ write game logic; and to support the saving and loading of games.
+ .
+ This package installs the upstream Ren'Py 8.3.4 web (Renpyweb) files under
+ /usr/share/games/renpy/web so the Debian Ren'Py launcher can build web
+ distributions. It also installs a launcher helper so CLI web_build and
+ distribute work without the full upstream SDK.
+
+Package: sblg
+Version: 0.6.1-2~aatdeb13u2
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 1888
+Depends: libc6 (>= 2.38), libexpat1 (>= 2.0.1)
+Suggests: lowdown
+Homepage: https://kristaps.bsd.lv/sblg
+Priority: optional
+Section: web
+Filename: pool/main/s/sblg/sblg_0.6.1-2~aatdeb13u2_arm64.deb
+Size: 727576
+SHA256: 1f10b057d325dbe8ee688ac4b4c608d76634781ccb3043b107457a503f7edc14
+SHA1: 5a16e2a5fd15e1e2acfb6609d3c58ddd87db972b
+MD5sum: 074e3e01fc6a84e147559ed71f815aef
+Description: static blog generator
+ sblg merges articles into templates and writes static HTML, Atom
+ feeds and JSON. It is meant to be driven from a make-style build.
+
+Package: sblg-dbgsym
+Source: sblg
+Version: 0.6.1-2~aatdeb13u2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 150
+Depends: sblg (= 0.6.1-2~aatdeb13u2)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sblg/sblg-dbgsym_0.6.1-2~aatdeb13u2_arm64.deb
+Size: 71804
+SHA256: 11e46ffa4537c7df64345fdda7ec17f70050b47982c179ee9b4ebce04febe815
+SHA1: d9385a5da71cf83537eb783185544e41abf03513
+MD5sum: d6ce0e537f5851f6a212f767c654f5ed
+Description: debug symbols for sblg
+Build-Ids: 4ff1e1c11ca90a0d8cedec8bab43668a10e37095
+
+Package: sonar-scanner
+Version: 8.0.1.6346-1~aatdeb13u1
+Architecture: all
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 10074
+Depends: openjdk-17-jre-headless | openjdk-21-jre-headless
+Homepage: https://github.com/SonarSource/sonar-scanner-cli
+Priority: optional
+Section: devel
+Filename: pool/main/s/sonar-scanner/sonar-scanner_8.0.1.6346-1~aatdeb13u1_all.deb
+Size: 8592048
+SHA256: 8188b5cda66214a8faa0379b84f3f444824a89db7eec87869a2d64489d0ce952
+SHA1: dbe7aea8ee149e1d13c902101161d1add7662385
+MD5sum: 4064da32204b40317f9a23f0df5efae4
+Description: Scanner CLI for SonarQube and SonarCloud
+ SonarScanner is the scanner to use when there is no specific scanner
+ for your build system. It works with SonarQube and SonarCloud to
+ analyze source code and detect bugs, vulnerabilities, and code smells.
+
+Package: trivy
+Version: 0.76.2-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 159396
+Homepage: https://trivy.dev
+Priority: optional
+Section: utils
+Filename: pool/main/t/trivy/trivy_0.76.2-1~aatdeb13u1_arm64.deb
+Size: 30123652
+SHA256: e1763f54f0138695bbdd77d71cf008b7a91ba43a7e0ae470405f027fb015f1be
+SHA1: 643dc10711a8c08c8c3bdb44a2b7e57201f3324a
+MD5sum: 81ef1fb6ea0d9f4e957d21822ebf6107
+Description: Comprehensive and versatile security scanner
+ Trivy is a security scanner for container images, filesystems, git
+ repositories, VM images and Kubernetes. This package ships the upstream
+ Linux binary as /usr/bin/trivy.
+
+Package: zola
+Version: 0.22.1-1~aatdeb13u1
+Architecture: arm64
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 40050
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 4.2)
+Homepage: https://www.getzola.org/
+Priority: optional
+Section: web
+Filename: pool/main/z/zola/zola_0.22.1-1~aatdeb13u1_arm64.deb
+Size: 9404956
+SHA256: b021e6a66fb0515c21f37dae0b65f703f611101fd173a78118edc56558855251
+SHA1: 2b3f56c7e25266dbd6ea70644e7feb44b5c87995
+MD5sum: 61306fe39539ffec1c735b31dfd7131e
+Description: Static site generator written in Rust
+ Zola is a fast static site generator. This package ships the upstream
+ Linux binary for this architecture.
+

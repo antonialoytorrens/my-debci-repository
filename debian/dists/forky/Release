@@ -1,7 +1,7 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 24 Nov 2026 22:19:46 UTC
+Date: Tue, 24 Nov 2026 22:48:04 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
@@ -14,8 +14,8 @@ MD5Sum:
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-armel/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-armel/Packages.gz
  0b5eb9394de4718099a39501d775c2e4 93 main/binary-armel/Release
- f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-armhf/Packages
- 5fcadd760f12574799a2468e79cfe54f 1373 main/binary-armhf/Packages.gz
+ d82e7dc51594aa7e8b29136ffeb11406 5150 main/binary-armhf/Packages
+ 058a2f774e75798b243bf9226df1d0fb 1863 main/binary-armhf/Packages.gz
  e4d3765a330dcb242322ab7be18e81d3 93 main/binary-armhf/Release
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-i386/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-i386/Packages.gz
@@ -39,8 +39,8 @@ SHA1:
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-armel/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-armel/Packages.gz
  bed268151ccf4e8d956adb25b5763cca7053f7bd 93 main/binary-armel/Release
- 902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-armhf/Packages
- 30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-armhf/Packages.gz
+ 47e1e9d35d52beffcd76709b40ce3c027f64c587 5150 main/binary-armhf/Packages
+ f2a045599a9386252325ee963b09cdc68ad8631d 1863 main/binary-armhf/Packages.gz
  86b2036a919ff7e668f783e1634a847cc62f2811 93 main/binary-armhf/Release
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-i386/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-i386/Packages.gz
@@ -64,8 +64,8 @@ SHA256:
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-armel/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-armel/Packages.gz
  e4f5aa098cae1a01df9f756f56f6e81a50cffcbe448d8201a6865b5363361f23 93 main/binary-armel/Release
- 5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-armhf/Packages
- 7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-armhf/Packages.gz
+ 9313eb269f06b5b6e343fcfb217694309cc94f273399fb5f041f636599e6e06a 5150 main/binary-armhf/Packages
+ f3f64004e17e3119f71b979494a7931f5f105bc17ad1ea8d516e5591edc1f6e9 1863 main/binary-armhf/Packages.gz
  20300c53257fa5225faaac1ed19b871641a282042a2b7c4c4710f26e809cc764 93 main/binary-armhf/Release
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-i386/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-i386/Packages.gz

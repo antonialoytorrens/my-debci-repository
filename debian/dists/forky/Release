@@ -1,7 +1,7 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 24 Nov 2026 22:48:04 UTC
+Date: Tue, 24 Nov 2026 23:01:15 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
@@ -17,8 +17,8 @@ MD5Sum:
  d82e7dc51594aa7e8b29136ffeb11406 5150 main/binary-armhf/Packages
  058a2f774e75798b243bf9226df1d0fb 1863 main/binary-armhf/Packages.gz
  e4d3765a330dcb242322ab7be18e81d3 93 main/binary-armhf/Release
- f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-i386/Packages
- 5fcadd760f12574799a2468e79cfe54f 1373 main/binary-i386/Packages.gz
+ 1b9549a2d6943547f69af3f2f62d746d 5148 main/binary-i386/Packages
+ 1e06af4fbaad456961611f28a34dfa9b 1859 main/binary-i386/Packages.gz
  240c8a54dfc2921c00f8db94a8a1e03f 92 main/binary-i386/Release
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-ppc64el/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-ppc64el/Packages.gz
@@ -42,8 +42,8 @@ SHA1:
  47e1e9d35d52beffcd76709b40ce3c027f64c587 5150 main/binary-armhf/Packages
  f2a045599a9386252325ee963b09cdc68ad8631d 1863 main/binary-armhf/Packages.gz
  86b2036a919ff7e668f783e1634a847cc62f2811 93 main/binary-armhf/Release
- 902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-i386/Packages
- 30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-i386/Packages.gz
+ e105cedca0e7081a274004056918f08449bbab4b 5148 main/binary-i386/Packages
+ 175251f9526831e31a255aa9107855da74866c62 1859 main/binary-i386/Packages.gz
  7359278e37e4f239c9fb7e8fbb08a73033319de6 92 main/binary-i386/Release
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-ppc64el/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-ppc64el/Packages.gz
@@ -67,8 +67,8 @@ SHA256:
  9313eb269f06b5b6e343fcfb217694309cc94f273399fb5f041f636599e6e06a 5150 main/binary-armhf/Packages
  f3f64004e17e3119f71b979494a7931f5f105bc17ad1ea8d516e5591edc1f6e9 1863 main/binary-armhf/Packages.gz
  20300c53257fa5225faaac1ed19b871641a282042a2b7c4c4710f26e809cc764 93 main/binary-armhf/Release
- 5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-i386/Packages
- 7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-i386/Packages.gz
+ bc96d03255d01287783cde406bcbb2c06c183f67fba1282123a2e04cf362f079 5148 main/binary-i386/Packages
+ aabddfdaba90ddcef2959687f5316aade867aec975272f20c7446e3d33c7533c 1859 main/binary-i386/Packages.gz
  f4ac3b0249059a0fc18877f88cd2aec4a6846cc8a1bfc8729c05384395d1dc9b 92 main/binary-i386/Release
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-ppc64el/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-ppc64el/Packages.gz

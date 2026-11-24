@@ -1,15 +1,15 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 24 Nov 2026 22:02:06 UTC
+Date: Tue, 24 Nov 2026 22:19:46 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
  ddeb2774bade9d7ecb959b87c3fa82fa 5150 main/binary-amd64/Packages
  b0676bb10cf5cd735707c908b83b7a40 1861 main/binary-amd64/Packages.gz
  99db3945c366da6329beaa52ca97329c 93 main/binary-amd64/Release
- f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-arm64/Packages
- 5fcadd760f12574799a2468e79cfe54f 1373 main/binary-arm64/Packages.gz
+ 998c965012ec26c41744c310042a0a40 5150 main/binary-arm64/Packages
+ 306343b00644e82cd2e9828ddd9dfc01 1863 main/binary-arm64/Packages.gz
  1e4b9f45f1e5a4ad67824a5959336f35 93 main/binary-arm64/Release
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-armel/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-armel/Packages.gz
@@ -33,8 +33,8 @@ SHA1:
  8b0c76d012a9be548f69074c85ca4622429cc69a 5150 main/binary-amd64/Packages
  24ade439f7a060018b6923c7d5160a2f5d56101a 1861 main/binary-amd64/Packages.gz
  412ae9903709961a63a853c47781afd47745868e 93 main/binary-amd64/Release
- 902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-arm64/Packages
- 30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-arm64/Packages.gz
+ 1597aca0ad6a7d3bd3f26e17ad559d66b04e7fcf 5150 main/binary-arm64/Packages
+ 661c735b205f7a629d53d9e38481b88b7aae246b 1863 main/binary-arm64/Packages.gz
  ec71069919ab619c625cdb24a976cdf2892da634 93 main/binary-arm64/Release
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-armel/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-armel/Packages.gz
@@ -58,8 +58,8 @@ SHA256:
  8ce8ea5db31f2864dc77942a8ac28ca13e81d2efbabbb4b8a7556256ace68fe4 5150 main/binary-amd64/Packages
  7554479d965f27cca9b314a531879288387715505f6e1b7a530ff84dfd7e98c7 1861 main/binary-amd64/Packages.gz
  fb2c9b6d5d2e82337d6b533e380b8912cc4a7bf2edb651e9c84595f128341cd6 93 main/binary-amd64/Release
- 5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-arm64/Packages
- 7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-arm64/Packages.gz
+ 4aa467b26550f9d34583c88f782ec85f2fec84e406a4393ed1a8aed1a7da9ede 5150 main/binary-arm64/Packages
+ 29707bed558709d45dece049090ff9abfa7556c4b94d7e913541bfc754cf626e 1863 main/binary-arm64/Packages.gz
  c28d9c6c32886b604a33127bca41b034305864f03198c6717a7915475e0757b6 93 main/binary-arm64/Release
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-armel/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-armel/Packages.gz

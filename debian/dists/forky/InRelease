@@ -4,12 +4,12 @@ Hash: SHA512
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 10 Nov 2026 12:28:13 UTC
+Date: Tue, 24 Nov 2026 22:02:06 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
- f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-amd64/Packages
- 5fcadd760f12574799a2468e79cfe54f 1373 main/binary-amd64/Packages.gz
+ ddeb2774bade9d7ecb959b87c3fa82fa 5150 main/binary-amd64/Packages
+ b0676bb10cf5cd735707c908b83b7a40 1861 main/binary-amd64/Packages.gz
  99db3945c366da6329beaa52ca97329c 93 main/binary-amd64/Release
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-arm64/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-arm64/Packages.gz
@@ -33,8 +33,8 @@ MD5Sum:
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-s390x/Packages.gz
  13a92e7a901ea29d2896a28a74c6d0b2 93 main/binary-s390x/Release
 SHA1:
- 902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-amd64/Packages
- 30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-amd64/Packages.gz
+ 8b0c76d012a9be548f69074c85ca4622429cc69a 5150 main/binary-amd64/Packages
+ 24ade439f7a060018b6923c7d5160a2f5d56101a 1861 main/binary-amd64/Packages.gz
  412ae9903709961a63a853c47781afd47745868e 93 main/binary-amd64/Release
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-arm64/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-arm64/Packages.gz
@@ -58,8 +58,8 @@ SHA1:
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-s390x/Packages.gz
  167cf461c4deaab298b1d025bfa71691f78d7f1b 93 main/binary-s390x/Release
 SHA256:
- 5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-amd64/Packages
- 7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-amd64/Packages.gz
+ 8ce8ea5db31f2864dc77942a8ac28ca13e81d2efbabbb4b8a7556256ace68fe4 5150 main/binary-amd64/Packages
+ 7554479d965f27cca9b314a531879288387715505f6e1b7a530ff84dfd7e98c7 1861 main/binary-amd64/Packages.gz
  fb2c9b6d5d2e82337d6b533e380b8912cc4a7bf2edb651e9c84595f128341cd6 93 main/binary-amd64/Release
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-arm64/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-arm64/Packages.gz
@@ -84,17 +84,17 @@ SHA256:
  90ee000b684ee733890f09c4b066fd7d6e9bd657e28379d50523f12624da93c1 93 main/binary-s390x/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1EuIPJyEFAFMxYiRi60lJfwT8XQFAmrzDd4ACgkQi60lJfwT
-8XQIGBAAgwzWLeItx47tgaaZyWpXhiuV56IvLoCJwGP5kZYC6HQSSa7UNOUb3UjB
-Isy3NIaQiMiEuP+uIxFSRThSvtpFp88wZ9vulArWSP0XfR+/Ahoa3COBbVZDufIL
-a+y8tmAxe6zgDfMLaZrWrAjv4yVQyRCZJJKqi4jOwbEetPFzFZL6usyX603wT1i8
-1OZURvNnCipOMcRqeJCCN4IhTvwQf5AKEZI5QjCuNQUv6aT9tWBiGevfqvCbxkk0
-Irt7gkRFmSkO4pGPKg0llcng4Lwn0D5sqgIhUGSYgC0oer2AU2DhGENMMwhoDTtu
-ksdoYz4ldweSKKUwFVinEUxH4hV1HynoveItz1QpqF4Jd5/pCvzoypWYaRqC24Yu
-VTABKvjJviqzIaMvLaIk67L3alcHkGDRI+urrEu+4yJyOiF5KK5SOEOOOgGY3Xn6
-K1wRFg3lVJDSHkEFcHw0IVJX5OUgLmuEfVy1F0ygps4vx6y/ypeNuFka4+T86E95
-0OvUpKt7+5ujiwb8t2WhINvapEITG3FHooSahwINu5onqxupPoVDpyViDpf7DhNq
-gus/NK9fPqVkftOX4qfENL5g/H0O/Ax4OKbUHXg4UDA4e8NbqSNxxH+/E3j4r9qq
-VJDSM8kis6tlbLVGL/i/LeV02eSq7oXt9tDheCEEsiTQLsTCbAM=
-=Iaz6
+iQIzBAEBCgAdFiEE1EuIPJyEFAFMxYiRi60lJfwT8XQFAmsGCV4ACgkQi60lJfwT
+8XTeGQ/9FvEp6Mu1dfx8RgLVkRRaSI6Wo/PemGPF51n/3hVEDRvm4Annm64i4lK4
+M1vO/vESQrkCFcWntEBrIilHrRsp/efh+BHhXNH8uQsxcXDd2qjsBpnvE3YmMMI4
+M1jXbA4UKz1lkVXiqf9VTNXk41jZQMbyFth+XfIxFwBbMPq7cPXJM4Vbg2mWCWht
+7VdlywSHaToiOXG1SkaZ8W53ZoSxDHKAJf3YDEjb8z1GwVhuM16pvdCT5iizh5jc
+kh8YvX2mTvu9fuuZ0Yj54A67r1IzOT3Bt+VBipSXqcN+uRJoBVZmPanhU77md2cc
+XWhY0IDSZPgwOQVDYj0qZ1MbkfzG996p+04oCLZ4lqlxuKtAUFtR2U6IehjScx15
+BwR8bWh22xNEu5Qi3IvdEUlm9V4iQ/g8zTjokpHgyliGfb5YBJw3xfbr2lxt565U
+1gES3NIZTHtaPNhmTbt2hA7nF2zrjBNjJxBMOReSV4O1+d+TI5aEIcoH8gJR3zlU
+wCHZ0qlyBEAWJYD/rrelGN9V9NRNoejZaETjX3mcHBxWYWK26M8ekXZFW4mLSssl
+XVTDDmp/NtYrL6tstKqlgC9BriGj13W7LWntWdt6Gtvj/k2uo46pO/Br4179sbjP
+GnvMAwzQ/hPSOLpU5tYtLYGTckk3ElHkJDsdi/7VyVLiGxZlnak=
+=n0/x
 -----END PGP SIGNATURE-----

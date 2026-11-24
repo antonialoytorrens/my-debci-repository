@@ -370,3 +370,21 @@ Description: Scanner CLI for SonarQube and SonarCloud
  for your build system. It works with SonarQube and SonarCloud to
  analyze source code and detect bugs, vulnerabilities, and code smells.
 
+Package: trivy
+Version: 0.76.2-1~aatdeb13u1
+Architecture: armhf
+Maintainer: Antoni Aloy Torrens <aaloytorrens@gmail.com>
+Installed-Size: 159012
+Homepage: https://trivy.dev
+Priority: optional
+Section: utils
+Filename: pool/main/t/trivy/trivy_0.76.2-1~aatdeb13u1_armhf.deb
+Size: 30327808
+SHA256: 987da54af99a98e377e5626f8cdc4bde54666801e10c968ab49b9cbda2fea4a7
+SHA1: 6d9a175f0423c224366fac44a6f91d69b9f60158
+MD5sum: b45eb8d6169296464761c6c7b0fd7580
+Description: Comprehensive and versatile security scanner
+ Trivy is a security scanner for container images, filesystems, git
+ repositories, VM images and Kubernetes. This package ships the upstream
+ Linux binary as /usr/bin/trivy.
+

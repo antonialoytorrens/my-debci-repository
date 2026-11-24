@@ -1,12 +1,12 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: trixie
-Date: Tue, 10 Nov 2026 11:33:03 UTC
+Date: Tue, 24 Nov 2026 19:57:30 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
- c73e45a5beeec3b722e3a501c4011877 9138 main/binary-amd64/Packages
- c4377d1eb5e1ad1fa4e87634ce63376d 3258 main/binary-amd64/Packages.gz
+ cdb60659e7faf421087827e28482f1d9 9817 main/binary-amd64/Packages
+ 381a4734dd8b4dc4d7593006e9404d05 3483 main/binary-amd64/Packages.gz
  99db3945c366da6329beaa52ca97329c 93 main/binary-amd64/Release
  f89fa0c6968ff4f746777aa86698c800 7705 main/binary-arm64/Packages
  bc77306a4bb270a7b956f1be3e8cddc5 2742 main/binary-arm64/Packages.gz
@@ -30,8 +30,8 @@ MD5Sum:
  96ce1ecf44d3ecd7537ef5c72f2d5ff4 2087 main/binary-s390x/Packages.gz
  13a92e7a901ea29d2896a28a74c6d0b2 93 main/binary-s390x/Release
 SHA1:
- 1590553a84a0ebf728374a53b344e6952d9707e8 9138 main/binary-amd64/Packages
- aec960bc22f1b8093fee9ef70130312615581749 3258 main/binary-amd64/Packages.gz
+ d938487ce343fc6bdf562e7665d8995e64acc321 9817 main/binary-amd64/Packages
+ 0c8b7aee5888263c03c6989e57fce39905bfc61e 3483 main/binary-amd64/Packages.gz
  412ae9903709961a63a853c47781afd47745868e 93 main/binary-amd64/Release
  82b41c3b6c2b80034c8fb8c5457e28706b8b44e9 7705 main/binary-arm64/Packages
  627f306c67d84fbaabc3dd65ce4952cea6ed9df6 2742 main/binary-arm64/Packages.gz
@@ -55,8 +55,8 @@ SHA1:
  a85402284c19c83c17a8faf2b37597264775da48 2087 main/binary-s390x/Packages.gz
  167cf461c4deaab298b1d025bfa71691f78d7f1b 93 main/binary-s390x/Release
 SHA256:
- 7750d19a5eff36a3b51af19a8cf1b6f84098e9a4e4620dd2ec310d450fb61362 9138 main/binary-amd64/Packages
- 7c6c3150d169625e2ab678da344e5f7621ce50220fd1e887946b9436e44a5415 3258 main/binary-amd64/Packages.gz
+ ef6e955163e72f5ad653245a138603ee6934dcbbf6894161e2a6d3ec82867742 9817 main/binary-amd64/Packages
+ 127b664b9f6d5078d329e2ec35820ae3c651d96668732ca54162176c7bf2da49 3483 main/binary-amd64/Packages.gz
  fb2c9b6d5d2e82337d6b533e380b8912cc4a7bf2edb651e9c84595f128341cd6 93 main/binary-amd64/Release
  0d3b3c5c611ba474426d44d66ae52cfc2bb6fae537296eeca86263b10599530d 7705 main/binary-arm64/Packages
  c4092f0915c7fc8e7932789436ba8d2dda03562fcc26a3214a65a676c1311697 2742 main/binary-arm64/Packages.gz

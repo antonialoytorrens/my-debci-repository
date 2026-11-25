@@ -1,7 +1,7 @@
 Origin: aat-debci-repository
 Label: aat-debci-repository
 Codename: forky
-Date: Tue, 24 Nov 2026 23:19:28 UTC
+Date: Tue, 24 Nov 2026 23:37:21 UTC
 Architectures: amd64 arm64 armel armhf i386 ppc64el riscv64 s390x
 Components: main
 MD5Sum:
@@ -26,8 +26,8 @@ MD5Sum:
  f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-riscv64/Packages
  5fcadd760f12574799a2468e79cfe54f 1373 main/binary-riscv64/Packages.gz
  cfeb6d59f5c715c63db62bd2da01362c 95 main/binary-riscv64/Release
- f84193d0dfbe2028906e8f9e13db6066 3367 main/binary-s390x/Packages
- 5fcadd760f12574799a2468e79cfe54f 1373 main/binary-s390x/Packages.gz
+ a5944ecdd0738bba4957fd6959fbb2a0 5150 main/binary-s390x/Packages
+ c1b867038a524b11af65ae23428bc47b 1859 main/binary-s390x/Packages.gz
  13a92e7a901ea29d2896a28a74c6d0b2 93 main/binary-s390x/Release
 SHA1:
  8b0c76d012a9be548f69074c85ca4622429cc69a 5150 main/binary-amd64/Packages
@@ -51,8 +51,8 @@ SHA1:
  902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-riscv64/Packages
  30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-riscv64/Packages.gz
  23ade96f183b63c9b8d0b62d11fe23069cbbd635 95 main/binary-riscv64/Release
- 902a79707c2e84a7e0e813d0d13da3832cb68735 3367 main/binary-s390x/Packages
- 30fc5a4443aae4c2028b850dcdcbaf25a83dc45a 1373 main/binary-s390x/Packages.gz
+ 734db91064004526bf69bb480401403501e8bd0f 5150 main/binary-s390x/Packages
+ 3ca0dbad283727092ad2eb6bfbde641c83e8997d 1859 main/binary-s390x/Packages.gz
  167cf461c4deaab298b1d025bfa71691f78d7f1b 93 main/binary-s390x/Release
 SHA256:
  8ce8ea5db31f2864dc77942a8ac28ca13e81d2efbabbb4b8a7556256ace68fe4 5150 main/binary-amd64/Packages
@@ -76,6 +76,6 @@ SHA256:
  5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-riscv64/Packages
  7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-riscv64/Packages.gz
  fa7bb2b852c853747241247f615185268a5722ce9c39b3e53e192b54da1f558f 95 main/binary-riscv64/Release
- 5d794601989d03a298c53154fdf730b559ec12adfccdbf9b69f4af71f3098785 3367 main/binary-s390x/Packages
- 7d0f8b13403f48f79d9a4417009149cc640679169efbe6778f7efc1da134c54a 1373 main/binary-s390x/Packages.gz
+ 8ceb96382db4a37423cfb10dbafc80a3c23425d2e7b1d5f7639a8c14cb2cf0c3 5150 main/binary-s390x/Packages
+ 5b46fbac7c23c0c98511c9396f5df2bbb4529a55511edcc482385c5a861c5310 1859 main/binary-s390x/Packages.gz
  90ee000b684ee733890f09c4b066fd7d6e9bd657e28379d50523f12624da93c1 93 main/binary-s390x/Release
